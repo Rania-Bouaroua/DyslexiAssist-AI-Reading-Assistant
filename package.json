@@ -1,0 +1,21 @@
+{
+  "name": "ai-tool",
+  "version": "1.0.0",
+  "description": "Module d'intelligence artificielle pour DyslexiAssist. Simplifie les textes academiques et les convertit en HTML optimise pour les personnes dyslexiques.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "pdf-parse": "^1.1.1",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0"
+  }
+}
